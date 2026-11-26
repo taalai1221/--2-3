@@ -1,0 +1,47 @@
+    for (let i = 1; i <= 20; i++) {
+  console.log(i);
+}
+
+for (let i = 20; i >= 1; i--) {
+  console.log(i);
+}
+
+for (let i = 1; i <= 50; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+let sum = 0;
+for (let i = 1; i <= 100; i++) {
+  sum += i;
+}
+console.log(sum);
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`Квадрат ${i} - ${i * i}`);
+}
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`5 * ${i} = ${5 * i}`);
+}
+
+let evenSum = 0;
+for (let i = 1; i <= 50; i++) {
+  if (i % 2 === 0) {
+    evenSum += i;
+  }
+}
+console.log(evenSum);
+
+for (let i = 0; i <= 100; i += 5) {
+  console.log(i);
+}
+
+let countDiv7 = 0;
+for (let i = 1; i <= 100; i++) {
+  if (i % 7 === 0) {
+    countDiv7++;
+  }
+}
+console.log(countDiv7);
